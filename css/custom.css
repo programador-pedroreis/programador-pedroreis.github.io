@@ -1,0 +1,142 @@
+.da-slider {  
+  background: transparent url(../imagens/animacaocode.gif) repeat-x 0% center;
+  height: 78vh !important;  
+}
+
+.contact h1, .contact h2, .contact h3, .contact h4, .contact h5, .contact h6, .contact .section .title > p {
+  color: #fff;
+}
+
+.contact  a{
+  color: #fff;
+}
+
+.contact  a:hover{
+  color: #1B1668 !important;
+}
+.contact textarea, .contact input[type="text"], .contact input[type="email"] {
+  padding: 10px;
+  line-height: 20px;
+  height: auto;
+}
+
+
+
+
+.team .thumbnail:hover .social {
+  z-index: 5;
+}
+
+.team .thumbnail .mask, .team .thumbnail .mask h3, .team .thumbnail .mask p, .team .thumbnail:hover h3, .team .thumbnail:hover .social a:hover {
+  color:#fff;
+}
+
+.triangle{
+  display: none;
+}
+
+.da-slider .mask{
+  /* background: rgb(40,22,40);
+background: linear-gradient(152deg, rgba(40,22,40,1) 2%, rgba(56,154,247,1) 50%, rgba(40,22,40,1) 81%); */
+
+
+}
+
+.about-text h3{
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+.navbar .brand {
+  display: block;
+  float: left;
+  padding: 10px 20px 10px;
+  margin-left: -20px;
+  font-size: 36px;
+  font-weight: bold;
+  color: #fff;
+  text-shadow: none;
+}
+
+.navbar .brand:hover{
+  background: none;
+  color: #ffdc3a;
+}
+
+.navbar .brand span{
+  font-size: 14px;
+  letter-spacing: 2px;
+  font-weight: 200;
+}
+
+#portfolio h1,
+#portfolio p,
+#portfolio a{
+  color: #000
+}
+
+#portfolio .title a:hover{
+  background: none;
+  border-bottom: 2px solid #000
+}
+
+#portfolio{
+  background-color: #ffdc3a;
+}
+
+#portfolio .thumbnail{
+  background-color: #000
+}
+
+#portfolio .thumbnail p,
+#portfolio .thumbnail h3{
+  color: #fff !important;
+}
+
+.close {
+  float: right;
+  font-size: 30px;
+  font-weight: bold;
+  line-height: 20px;
+  color: #ffdc3a;
+  text-shadow: none;
+  opacity: 1;
+  filter: alpha(opacity=20);
+}
+
+.close:hover{
+  color: #ffdc3a;
+  text-shadow: none;
+}
+
+.area-tecnologia{
+  background-color: #ffdc3a;
+}
+
+.area-tecnologia h3,
+.area-tecnologia p,
+.area-tecnologia a{
+  color: #000
+}
+
+.area-tecnologia .sub-section{
+  margin-top: 0;
+}
+
+.area-contato{
+  padding-top: 0 !important;
+}
+
+.area-contato .info-mail a:hover{
+  background-color: transparent !important;
+  color: #ffdc3a !important
+}
+
+.area-contato a:hover{
+  background: transparent !important;
+  color: #ffdc3a !important;
+}
+
+.team .thumbnail h3{
+  color: #000
+}
