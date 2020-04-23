@@ -19,10 +19,6 @@
   line-height: 20px;
   height: auto;
 }
-
-
-
-
 .team .thumbnail:hover .social {
   z-index: 5;
 }
@@ -139,4 +135,13 @@ background: linear-gradient(152deg, rgba(40,22,40,1) 2%, rgba(56,154,247,1) 50%,
 
 .team .thumbnail h3{
   color: #000
+}
+
+.project-info a{
+  color: #fff !important;
+}
+.project-info a:hover{
+  color: #fff !important;
+  border-bottom: 1px solid #ffdc3a;
+  background-color: transparent;
 }
