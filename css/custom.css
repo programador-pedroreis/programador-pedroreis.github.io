@@ -1,0 +1,479 @@
+*, *:before, *:after{
+	-webkit-box-sizing:  border-box;
+	-moz-box-sizing:  border-box;
+	box-sizing: border-box;
+}
+h1, h2, h3, h4, h5, h6, p,
+ul, li, a, span{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-family: 'Poppins', sans-serif;
+	-webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.navbar{
+	padding: 0;
+	
+}
+.navbar-brand{
+	background-color: #000;
+	padding:  30px 30px 30px 0 !important;
+	position: relative;
+	font-weight: 900;
+	color: #fff;
+	font-size: 40px;
+	line-height: 0.6;
+	letter-spacing: 2px;
+}
+
+.navbar-brand span{
+	color: #ffdc3a;
+	font-size: 20px;
+	font-weight: 400;
+}
+.navbar-brand:hover{
+	color: #fff;
+}
+.navbar-brand:after {
+    position: absolute;
+    top: 0;
+    right: 100%;
+    bottom: 0;
+    content: '';
+    width: 300%;
+    background: #000;
+}
+
+.navbar-nav>.nav-item>.nav-link {
+    font-size: 18px;
+    padding-top: .8rem;
+    padding-bottom: .8rem;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: #666;
+    font-weight: 500;
+    position: relative;
+    z-index: 0;
+	opacity: 1!important;	
+	text-align: center;	
+}
+.navbar-nav>.nav-item>.nav-link:hover{
+	color: #000;
+}
+
+.navbar-nav>.nav-item>.nav-link:hover::after{
+	content: '';
+	width: 120%;
+	height: 7px;
+	background: #ffdc3a;
+	display: block;
+	margin-top: -9px;
+	margin-left: -5px;	
+}
+#AreaBanner{	
+	height: 635px;	
+	background-color: #000;
+	z-index: -1;
+	position: relative;
+	margin-top: 96px;
+}
+.texto-banner{
+	white-space: nowrap;
+	color: #fff;
+}
+
+.texto-banner h1{
+	font-weight: 800;
+	font-size: 80px;
+	text-shadow: 10px 10px 5px black; 
+}
+
+.linha-amarela::after {
+	content: '';
+	width: 120%;
+	height: 10px;
+	background: #ffdc3a;
+	display: block;
+	margin-top: -9px;	
+}
+
+.bg-topo{
+	height: 635px;	
+	z-index: -1;	
+	background-image: url('../imagens/animacaocode.gif');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+}
+
+#Tecnologias button{
+	display: none !important;
+}
+
+#Servicos .bg_servicos{
+	background-image: url('../imagens/servicos_programador_pedroreis.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	
+}
+#Servicos .span-servicos::after{
+	content: '';
+	width: 135px;
+	height: 10px;
+	background: #ffdc3a;
+	display: block;
+	margin-top: -9px;
+	margin-left: 450px;
+}
+
+#Servicos h2{
+	font-size: 1.5rem;
+}
+
+#Servicos h3{
+	font-size: 1.2rem;
+	text-transform: uppercase;
+}
+
+#Servicos i{
+	font-size: 70px;
+	color: #000;	
+}
+
+#Servicos .border-bottom{
+	border-bottom: 2px solid #ffdc3a !important;
+}
+
+#Tecnologias{
+	background: #ffdc3a;
+	
+}
+
+#Tecnologias span{
+	color: #000;
+	font-size: 20px;
+	letter-spacing: 2px;
+}
+
+#Portfolio .linha-amarela::after {
+	content: '';
+	width: 15%;
+	height: 8px;
+	background: #ffdc3a;
+	display: block;
+	margin-top: -12px;	
+	margin-bottom: 15px;
+}
+
+#Portfolio a{
+	color: #ffdc3a;
+	text-decoration: none;
+}
+
+#Portfolio a:hover{
+	background-color: #ffdc3a;
+	color: #000;
+}
+
+#Portfolio{
+	background: #000;
+	color: #fff
+}
+
+#ContratarContato h2::after{
+	content: '';
+	width: 80%;
+	height: 10px;
+	background: #ffdc3a;
+	display: block;
+	margin-top: -12px;	
+}
+
+#ContratarContato .contato{
+	text-align: right;
+}
+
+#ContratarContato .contato a{
+	color: #000;
+	font-weight: bold;
+	font-size: 20px;
+}
+
+#ContratarContato .contato h2::after{
+	content: '';
+	width: 50%;
+	height: 10px;
+	margin-left: 270px;
+	background: #ffdc3a;
+	display: block;
+	margin-top: -12px;	
+}
+
+#Sobre h2::after{
+	content: '';
+	width: 55%;
+	height: 10px;
+	background: #ffdc3a;
+	display: block;
+	margin-top: -12px;	
+}
+
+#Tecnologias .img_js{
+	border: 3px solid #000;
+	
+}
+
+#Tecnologias .linha-amarela::after {
+	content: '';
+	width: 90%;
+	height: 8px;
+	background: #fff;
+	display: block;
+	margin-top: -8px;	
+	margin-bottom: 15px;
+}
+
+footer{
+	background-color: #000;
+	color: #fff;
+	font-weight: 200;
+}
+
+.responsive .col-lg-2{
+	height: 180px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+
+/* Estilos aplicados a larguras até 480 pixels */
+
+@media screen and (max-width: 480px) {
+	.navbar-brand{
+		background-color: #000;
+		padding:  30px 30px 30px 0 !important;
+		position: relative;
+		font-weight: 900;
+		color: #fff;
+		font-size: 30px;
+		line-height: 0.6;
+		letter-spacing: 2px;
+	}
+	
+	.navbar-brand span{
+		color: #ffdc3a;
+		font-size: 12px;
+		font-weight: 400;
+	}
+
+
+	#AreaBanner{
+		height: auto;
+	}
+	.texto-banner{
+		white-space: normal;
+		background-color: #ffdc3a;
+		padding: 15px 0;
+	}
+	.texto-banner h1{
+		font-size: 1.8rem;
+		text-shadow: none; 
+		color: #000;
+	}
+
+	.texto-banner span{
+		font-weight: bold;
+	}
+
+	.bg-topo{
+		height: 180px;
+	}
+
+	.linha-amarela::after {
+		content: '';
+		width: 60%;
+		height: 8px;
+		background: #000;
+		display: block;
+		margin-top: -10px;	
+		margin-bottom: 15px;
+	}
+
+	#Servicos{
+		text-align: left !important;
+	}
+
+	#Servicos .span-servicos::after{
+		content: '';
+		width: 135px;
+		height: 10px;
+		background: #ffdc3a;
+		display: block;
+		margin-top: -9px;
+		margin-left: 0px;
+	}
+
+	#Tecnologias .linha-amarela::after {
+		content: '';
+		width: 40%;
+		height: 8px;
+		background: #fff;
+		display: block;
+		margin-top: -8px;	
+		margin-bottom: 15px;
+	}
+
+	#Portfolio .linha-amarela::after {
+		content: '';
+		width: 45%;
+		height: 8px;
+		background: #ffdc3a;
+		display: block;
+		margin-top: -12px;	
+		margin-bottom: 15px;
+	}
+	#ContratarContato .contato{
+		text-align: left;
+	}
+
+	#ContratarContato .contato h2::after{
+		content: '';
+		width: 50%;
+		height: 10px;
+		margin-left: 0px;
+		background: #ffdc3a;
+		display: block;
+		margin-top: -12px;	
+	}
+
+	#ContratarContato .contato{
+		background: #000;
+		margin-top: 20px;
+		padding-top: 20px;
+		color: #fff
+		
+	}
+
+	#ContratarContato .contato a{
+		color: #fff;
+		font-weight: bold;
+		font-size: 18px;
+	}
+
+	#ContratarContato .contato .zap{
+		text-align: center;
+	}
+
+	#ContratarContato .contato .telefone a{
+		font-size: 26px;
+	}
+
+	#ContratarContato .contato .email b{
+		display: none;
+	}
+
+	#ContratarContato .contato .email{
+		margin-top: 30px;
+	}
+
+	.navbar-nav>.nav-item>.nav-link {
+		font-size: 18px;
+		padding-top: .8rem;
+		padding-bottom: .8rem;
+		padding-left: 20px;
+		padding-right: 20px;
+		color: #000;
+		font-weight: 500;
+		position: relative;
+		z-index: 0;
+		opacity: 1!important;
+		text-align: right;
+		text-transform: uppercase;
+
+	}
+
+	footer p{
+		font-size: 14px;
+		text-align: center;
+	}
+
+	footer{
+		background: #ffdc3a;
+		color: #000;
+	}
+
+	#Servicos .icones{
+		display: none;	
+	}
+
+	#Servicos .como_funciona::before{		
+		font-family: "Font Awesome 5 Free"; 
+		text-align: right;
+		font-weight: 900; 
+		content: "\f2b5";
+		font-size: 100px;
+		color: #ffdc3a;	
+		display: block;
+		margin-bottom: -100px;
+		margin-left: -20px;
+		margin-right: 10px;
+	}
+
+	#Servicos .prazos::before{		
+		font-family: "Font Awesome 5 Free"; 
+		text-align: right;
+		font-weight: 900; 
+		content: "\f073";
+		font-size: 100px;
+		color: #ffdc3a;	
+		display: block;
+		margin-bottom: -100px;
+		margin-left: -20px;
+		margin-right: 10px;
+	}
+
+	#Servicos .quanto_custa::before{		
+		font-family: "Font Awesome 5 Free"; 
+		text-align: right;
+		font-weight: 900; 
+		content: "\f653";
+		font-size: 100px;
+		color: #ffdc3a;	
+		display: block;
+		margin-bottom: -100px;
+		margin-left: -20px;
+		margin-right: 10px;
+	}
+
+	#Servicos .assina::before{		
+		font-family: "Font Awesome 5 Free"; 
+		text-align: right;
+		font-weight: 900; 
+		content: "\f56c";
+		font-size: 100px;
+		color: #ffdc3a;	
+		display: block;
+		margin-bottom: -100px;
+		margin-left: -20px;
+		margin-right: 10px;
+	}
+
+	#Servicos .nota_fiscal::before{		
+		font-family: "Font Awesome 5 Free"; 
+		text-align: right;
+		font-weight: 900; 
+		content: "\f571";
+		font-size: 100px;
+		color: #ffdc3a;	
+		display: block;
+		margin-bottom: -100px;
+		margin-left: -20px;
+		margin-right: 10px;
+	}
+}
+
