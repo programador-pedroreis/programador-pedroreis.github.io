@@ -75,7 +75,7 @@ body{
 }
 #AreaBanner{	
 	height: 635px;	
-	background-color: #000;
+	background-color: #000000;
 	z-index: -1;
 	position: relative;
 	margin-top: 96px;
