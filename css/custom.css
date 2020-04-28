@@ -250,6 +250,29 @@ footer{
 	justify-content: center;
 }
 
+.disponivel{	
+	color: #000;
+	position: fixed;
+	z-index: 9999;
+	width: 100%;
+}
+
+.disponivel h6{
+	background: #00FE00;
+}
+
+.disponivel i{
+	color: #fff;
+	font-size: 10px;
+	margin-right: 5px;
+}
+
+footer i{
+	color: #00FE00;
+	font-size: 10px;
+	margin-right: 5px;
+}
+
 
 /* Estilos aplicados a larguras até 480 pixels */
 
