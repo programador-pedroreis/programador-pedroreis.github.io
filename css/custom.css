@@ -279,22 +279,25 @@ footer i{
 @media screen and (max-width: 480px) {
 	.navbar-brand{
 		background-color: #000;
-		padding:  30px 30px 30px 0 !important;
+		padding:  30px 0px !important;
 		position: relative;
 		font-weight: 900;
 		color: #fff;
 		font-size: 30px;
 		line-height: 0.6;
 		letter-spacing: 2px;
-	}
-	
+	}	
 	.navbar-brand span{
 		color: #ffdc3a;
 		font-size: 12px;
 		font-weight: 400;
 	}
 
-
+	.disponivel h6{
+		font-size: 12px;
+		margin-top: -15px;
+		
+	}
 	#AreaBanner{
 		height: auto;
 	}
@@ -308,15 +311,12 @@ footer i{
 		text-shadow: none; 
 		color: #000;
 	}
-
 	.texto-banner span{
 		font-weight: bold;
 	}
-
 	.bg-topo{
 		height: 180px;
 	}
-
 	.linha-amarela::after {
 		content: '';
 		width: 60%;
@@ -326,7 +326,6 @@ footer i{
 		margin-top: -10px;	
 		margin-bottom: 15px;
 	}
-
 	#Servicos{
 		text-align: left !important;
 	}
@@ -497,6 +496,33 @@ footer i{
 		margin-bottom: -100px;
 		margin-left: -20px;
 		margin-right: 10px;
+	}
+}
+
+@media (min-width: 481px) and (max-width: 991px){
+	.texto-banner {
+		white-space: nowrap;
+		color: #fff;
+		margin-top: -510px;
+	}
+
+	.texto-banner h1{
+		font-size: 3.5rem;
+	}
+
+	.texto-banner .linha-amarela{
+		color: #000;
+		font-size: 20px;
+		font-weight: 900;
+	}
+
+	.linha-amarela::after {
+		content: '';
+		width: 35%;
+		height: 10px;
+		background: #fff;
+		display: block;
+		margin-top: -9px;
 	}
 }
 
